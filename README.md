@@ -1,8 +1,11 @@
 # novel-idea
 
 ## Set Up
-* `bower install`
-* `npm install`
+```shell
+npm install -g gulp bower yo generator-gulp-angular-semantic-ui
+bower install
+npm install
+```
 
 ## Build and Run
 * `gulp build` to minimize everything
