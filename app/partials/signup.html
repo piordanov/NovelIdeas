@@ -1,0 +1,57 @@
+<div ng-controller="MenuCtrl" class="ui fixed inverted main menu">
+		  <div class="ui main container">
+				<a ng-href="#/" class="title item">NovelIdeas</a>
+				<div class="right menu">
+					<div class="item">
+						 <a href="#/login"><i class="user icon"></i>Login</a>
+					</div>
+				</div>
+		  </div>
+</div>
+
+
+<div class="ui one column centered page stackable grid auth">
+	<div class="column eight wide left floated">
+		 <h1>
+			  NOVEL IDEAS
+		 </h1>
+
+		 <p>
+			  A virtual bookclub...<br>
+			  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			  consequat.
+		 </p>
+	</div>
+	<div class="column six wide">
+		  <h4 class="ui block top attached header">Sign Up</h4>
+		  <div class="ui form bottom attached fluid segment compact">
+				<div class="ui negative message hide" show-if="{{ vm.isError }}">
+					 <div class="header">Authentication failed</div>
+					 <p>Invalid username or password.</p>
+				</div>
+			<div class="field">
+					 <div class="ui left icon input">
+						  <i class="user icon"></i>
+						  <input type="text" ng-model="vm.user.username" placeholder="Name">
+					 </div>
+				</div>
+				<div class="field">
+					 <div class="ui left icon input">
+						  <i class="mail icon"></i>
+						  <input type="Email" ng-model="vm.user.useremail" placeholder="Email">
+					 </div>
+				</div>
+				<div class="field">
+					 <div class="ui left icon input">
+						  <i class="lock icon"></i>
+						  <input type="password" ng-model="vm.user.password" placeholder="Password">
+					 </div>
+				</div>
+				<div class="field">
+					 <a class="ui button large primary" ng-click="vm.enter()">Enter</a>
+				</div>
+		  </div>
+	</div>
+</div>

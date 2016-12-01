@@ -16,8 +16,18 @@
                     controllerAs: 'vm'
                 }).
                 when('/login', {
-                    templateUrl: 'partials/auth.html',
-                    controller: 'AuthCtrl',
+                    templateUrl: 'partials/login.html',
+                    controller: 'LoginCtrl',
+                    controllerAs: 'vm'
+                }).
+                when('/signup', {
+                    templateUrl: 'partials/signup.html',
+                    controller: 'LoginCtrl', // needs to be changed
+                    controllerAs: 'vm'
+                }).
+                when('/books', {
+                    templateUrl: 'partials/books.html',
+                    controller: 'TabularCtrl', // needs to be changed
                     controllerAs: 'vm'
                 }).
                 when('/tabs', {
@@ -26,7 +36,7 @@
                     controllerAs: 'vm'
                 }).
                 otherwise({
-                    redirectTo: '/'
+                    redirectTo: '/signup'
                 });
             }
         ]);
