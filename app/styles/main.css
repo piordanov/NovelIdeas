@@ -23,3 +23,11 @@ div.ui.auth, div.ui.top.attached.menu {
 div.title.item {
     position: inherit !important;
 }
+
+html, body { 
+}
+
+.ni {
+	height: 100vh;
+	background-color: #ffcc33;
+}
