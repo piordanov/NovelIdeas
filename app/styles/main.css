@@ -25,9 +25,16 @@ div.title.item {
 }
 
 html, body { 
+	margin: 0;
+	padding: 0;
 }
 
 .ni {
-	height: 100vh;
+	min-height: calc(100vh - 34px);
 	background-color: #ffcc33;
+}
+
+.ui.fixed.main.menu {
+	position: fixed;
+	border-bottom: 2px solid #2a292b;
 }
