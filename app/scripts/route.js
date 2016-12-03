@@ -30,6 +30,11 @@
                     controller: 'TabularCtrl', // needs to be changed
                     controllerAs: 'vm'
                 }).
+                when('/users', {
+                    templateUrl: 'partials/users.html',
+                    controller: 'TabularCtrl', // needs to be changed
+                    controllerAs: 'vm'
+                }).
                 when('/tabs', {
                     templateUrl: 'partials/tabular.html',
                     controller: 'TabularCtrl',
