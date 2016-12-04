@@ -38,3 +38,11 @@ html, body {
 	position: fixed;
 	border-bottom: 2px solid #2a292b;
 }
+
+#bookFollow button {
+	margin: 7px;
+}
+
+h2 {
+	margin: auto !important;
+}
