@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Esteban|Montserrat:400,700');
+
 hr {
   border: 0;
   border-top: 1px solid silver;
@@ -45,4 +47,26 @@ html, body {
 
 h2 {
 	margin: auto !important;
+}
+
+h1 {
+	font-family: "Montserrat", Helvetica, Arial, sans-serif;
+	font-size: 80px;
+	font-weight: 700;
+	color: #ffcc33;
+}
+
+.appSummary {
+	font-family: "Esteban";
+	color: white;
+	font-size: 2rem;
+}
+.ui.footer {
+	background-color: black;
+}
+
+.sign {
+	min-height: calc(100vh - 48px);
+	background-image: url(/media/background.jpg);
+	background-size: cover;
 }
