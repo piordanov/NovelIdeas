@@ -40,6 +40,11 @@
                     controller: 'TabularCtrl',
                     controllerAs: 'vm'
                 }).
+                when('/search', {
+                    templateUrl: 'partials/search.html',
+                    controller: 'PaginationCtrl',
+                    controllerAs: 'vm'
+                }).
                 otherwise({
                     redirectTo: '/signup'
                 });

@@ -30,11 +30,24 @@ html, body {
 }
 
 .ni {
+  background-color: #ffcc33;
 	min-height: calc(100vh - 34px);
-	background-color: #ffcc33;
 }
 
 .ui.fixed.main.menu {
 	position: fixed;
 	border-bottom: 2px solid #2a292b;
+}
+
+.login {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+.followedUsers, .followingUsers {
+  list-style-type: none;
 }
