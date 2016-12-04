@@ -51,3 +51,12 @@ a {
 .followedUsers, .followingUsers {
   list-style-type: none;
 }
+
+#bookFollow button {
+	margin: 7px;
+}
+
+h2 {
+	margin: auto !important;
+}
+
