@@ -54,12 +54,15 @@
       </div>
     </div>
   </div>
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <!-- build:js script.js -->
     <!-- bower:js -->
     <script src="../bower_components/angular/angular.js"></script>
     <script src="../bower_components/angular-route/angular-route.js"></script>
     <script src="../bower_components/angular-loading-bar/build/loading-bar.js"></script>
+    <script src="../bower_components/semantic-ui/dist/components/dimmer.js"></script>
+    <script src="../bower_components/semantic-ui/dist/components/transition.js"></script>
     <script src="../bower_components/semantic-ui/dist/components/modal.js"></script>
     <!-- endbower -->
     <script src="scripts/controllers/MenuCtrl.js"></script>
@@ -73,13 +76,12 @@
     <script src="scripts/directives/showIf.js"></script>
     <script src="scripts/route.js"></script>
     <script src="scripts/app.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
         $(document).ready(function(){
-             $('.followers').click(function(){
+             $(document).on('click','#followers',function(e){
                 $('#modaldiv1').modal('show');    
              });
-             $('.following').click(function(){
+             $(document).on('click','#following',function(e){
                 $('#modaldiv2').modal('show');    
              });
         });

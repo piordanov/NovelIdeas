@@ -25,18 +25,18 @@ div.title.item {
 }
 
 html, body { 
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .ni {
   background-color: #ffcc33;
-	min-height: calc(100vh - 34px);
+  min-height: calc(100vh - 34px);
 }
 
 .ui.fixed.main.menu {
-	position: fixed;
-	border-bottom: 2px solid #2a292b;
+  position: fixed;
+  border-bottom: 2px solid #2a292b;
 }
 
 .login {
@@ -50,13 +50,46 @@ a {
 
 .followedUsers, .followingUsers {
   list-style-type: none;
+  font-size: 16px;
+  padding:0;
+}
+
+.followingUsers li, .followedUsers li {
+  padding: 2%;
 }
 
 #bookFollow button {
-	margin: 7px;
+  margin: 7px;
 }
 
 h2 {
-	margin: auto !important;
+  margin: auto !important;
+}
+
+#modaldiv1 .header, #modaldiv2 .header {
+  background-color: #ffcc33;
+}
+
+.userbody {
+  margin-top:4% !important;
+  margin-bottom:0.1% !important;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.card-style {
+  width: 150px !important;
+  height: 210px !important;
+  margin: auto !important;
 }
 
