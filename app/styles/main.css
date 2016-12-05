@@ -108,3 +108,11 @@ h2 {
 .f-30 {
   font-size: 30px;
 }
+
+.search-form {
+  margin: 2% !important;
+}
+
+.search {
+  margin-left: 1% !important;
+}
