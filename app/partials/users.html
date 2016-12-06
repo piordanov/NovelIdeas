@@ -1,5 +1,5 @@
-<div class="ni">
-<div ng-controller="MenuCtrl" class="ui fixed main menu">
+<div  class="ni">
+<div class="ui fixed main menu" ng-controller="MenuCtrl">
     <div class="ui main container">
         <a ng-href="#/signup" class="title item"><img src="./media/logo.png"></a>
         <div class="right menu">
@@ -21,11 +21,11 @@
         </div>
     </div>
 </div>
-<div style="height: 100px;"></div>
-<div class="ui centered page stackable grid">
+<div class="userbody ui centered page stackable grid">
     <div class="row">
-        <div id=userPicture class="four wide column" style="float: left;">
+        <!-- <div id=userPicture class="four wide column fl-left">
             <img src="./media/placeholder.png" style="width: 150px; height: 225px;">
+<<<<<<< HEAD
         </div>
         <section id="userDetails" class="twelve wide column" style="float: right;">
             <div>
@@ -34,8 +34,8 @@
                     <p><b>Followers:</b> 100  <b> Following:</b> 450</p>
                 <p><b>Currently reading:</b> Book Title, Book title. <br>
                 <b>Books read:</b> 190<br><br></p> 
-                    <!-- <div class="ui star rating" data-rating="4"></div>  needs to be fixed -->
-                </section>
+                     <div class="ui star rating" data-rating="4"></div>  needs to be fixed 
+                 </section>
                 <section id="userFollow" class="three wide column" style="float: right;"> 
                         <button class="ui button" style="float:right;"><i class="user icon"></i> Follow</button>
                 </section>
@@ -45,65 +45,124 @@
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.</p>
+=======
+ -->        </div>
+        <section id="userDetails" class="sixteen wide column">
+            <section id="userFinerDetails" class="fl-left">
+                <h2>USERNAME</h2>
+            </section>
+            <section id="userFollow" class="three wide column fl-right"> 
+                <button class="ui button"><i class="user icon"></i> Follow</button>
+            </section>
+            <section class="clear">
+            <a id="followers"><b>Followers:</b> 100</a> <a id="following"><b> Following:</b> 450</a>
+            <p><b>Currently reading:</b> Book Title, Book title. <br>
+            <b>Books read:</b> 190<br><br></p>  
+            </section>  
+            <p class="clear">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </section>
     </div>
-    <div class="ui top attached pointing secondary menu">
+    <div class="ui top attached pointing menu">
         <a tab-item id="mytab1" class="tab item active">Books Read</a>
         <a tab-item id="mytab2" class="tab item">Wishlist</a>
     </div>
 
     <div class="ui bottom attached tab segment active mytab1">
         <br>
-        <div class="ui grid">
+        <div class="ui grid stackable">
             <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+                <div class="ui card">
+                  <div class="content">
+                    <div class="header">Book Title</div>
+                  </div>
+                  <div class="extra content">
+                    <button class="ui button"> View Book </button>
                   </div>
                 </div>
             </div>
             <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+                <div class="ui card">
+                  <div class="content">
+                    <div class="header">Book Title</div>
+                  </div>
+                  <div class="extra content">
+                    <button class="ui button"> View Book </button>
                   </div>
                 </div>
             </div>
             <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+                <div class="ui card">
+                  <div class="content">
+                    <div class="header">Book Title</div>
+                  </div>
+                  <div class="extra content">
+                    <button class="ui button"> View Book </button>
                   </div>
                 </div>
             </div>
             <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+                <div class="ui card">
+                  <div class="content">
+                    <div class="header">Book Title</div>
                   </div>
-                </div>
-            </div>
-            <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+                  <div class="extra content">
+                    <button class="ui button"> View Book </button>
                   </div>
                 </div>
             </div>
         </div>
+        <br>
     </div>
     <div class="ui bottom attached tab segment mytab2">
         <br>
-        <div class="ui grid">
+        <div class="ui grid stackable">
             <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+                <div class="ui card">
+                  <div class="content">
+                    <div class="header">Book Title</div>
+                  </div>
+                  <div class="extra content">
+                    <button class="ui button"> View Book </button>
                   </div>
                 </div>
             </div>
         </div>
+        <br>
     </div>
 </div>
+<<<<<<< HEAD
 <div style="height: 50px;"></div>
+=======
+<div id="modaldiv1" class="ui modal">
+  <i class="close icon"></i>
+  <div class="header">
+    Followers
+  </div>
+  <div class="content">
+    <ul class="followedUsers">
+        <li> User 1 </li>
+        <li> User 2 </li>
+        <li> User 3 </li>
+    </ul>
+  </div>
+</div>
+<div id="modaldiv2" class="ui modal">
+  <i class="close icon"></i>
+  <div class="header">
+    Following
+  </div>
+  <div class="content">
+    <ul class="followedUsers">
+        <li> User 1 </li>
+        <li> User 2 </li>
+        <li> User 3 </li>
+    </ul>
+  </div>
+</div>
+>>>>>>> ta
 </div>

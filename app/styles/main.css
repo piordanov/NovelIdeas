@@ -27,25 +27,45 @@ div.title.item {
 }
 
 html, body { 
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .ni {
-	min-height: calc(100vh);
-	background-color: #ffcc33;
+  background-color: #ffcc33;
+  min-height: calc(100vh - 34px);
 }
 
 .ui.fixed.main.menu {
-	position: fixed;
-	border-bottom: 2px solid #2a292b;
+  position: fixed;
+  border-bottom: 2px solid #2a292b;
+}
+
+.login {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+.followedUsers, .followingUsers {
+  list-style-type: none;
+  font-size: 16px;
+  padding:0;
+}
+
+.followingUsers li, .followedUsers li {
+  padding: 2%;
 }
 
 #bookFollow button {
-	margin: 7px;
+  margin: 7px;
 }
 
 h2 {
+/*<<<<<<< HEAD
 	margin: auto;
 	color: white;
 	font-family: "Montserrat";
@@ -83,4 +103,58 @@ h1 {
 #description {
 	font-color: $black;
 	font-family: "Esteban"
+}
+=======*/
+  margin: auto !important;
+}
+
+#modaldiv1 .header, #modaldiv2 .header {
+  background-color: #ffcc33;
+}
+
+.userbody {
+  margin-top:4% !important;
+  margin-bottom:0.1% !important;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.card-style {
+  width: 150px !important;
+  height: 210px !important;
+  margin: auto !important;
+}
+
+.book-results {
+  margin-bottom: 3% !important;
+}
+
+.f-70 {
+  font-size: 70px;
+}
+
+.f-20 {
+  font-size: 20px;
+}
+
+.f-30 {
+  font-size: 30px;
+}
+
+.search-form {
+  margin: 2% !important;
+}
+
+.search {
+  margin-left: 1% !important;
 }
