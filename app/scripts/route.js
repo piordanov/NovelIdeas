@@ -35,6 +35,16 @@
                     controller: 'TabularCtrl', // needs to be changed
                     controllerAs: 'vm'
                 }).
+                when('/userlist', {
+                    templateUrl: 'partials/userlist.html',
+                    controller: 'TabularCtrl', // needs to be changed
+                    controllerAs: 'vm'
+                }).
+                when('/booklist', {
+                    templateUrl: 'partials/booklist.html',
+                    controller: 'TabularCtrl', // needs to be changed
+                    controllerAs: 'vm'
+                }).
                 when('/tabs', {
                     templateUrl: 'partials/tabular.html',
                     controller: 'TabularCtrl',
