@@ -22,7 +22,7 @@
     </div>
 </div>
 <div style="height: 100px;"></div>
-<div class="ui centered page stackable grid">
+<div class="ui  page stackable grid">
     <div class="row">
         <div id=bookPicture class="four wide column">
             <img src="./media/placeholder.png" style="width: 150px; height: 225px;">
@@ -39,7 +39,7 @@
                 </section>
             </div>
             <div style="height: 60px;"></div>
-            <div><p style="clear: both;">Book description or summary goes here, consectetur adipisicing elit, sed do eiusmod
+            <div id="description"><p style="clear: both;">Book description or summary goes here, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -55,40 +55,73 @@
     <div class="ui bottom attached tab segment active mytab1">
         <br>
         <div class="ui grid stackable">
-            <div class="twelve wide column">
-                <div class="ui card" style=" margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+            <div class="ui comments">
+              <div class="comment">
+                <a class="avatar">
+                  <img src="./media/placeholder.png">
+                </a>
+                <div class="content">
+                  <a class="author">Matt</a>
+                  <div class="text">
+                    How artistic!
+                  </div>
+                  <div class="actions">
+                    <a class="reply">Reply</a>
                   </div>
                 </div>
-            </div>
-            <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+              </div>
+              <div class="comment">
+                <a class="avatar">
+                  <img src="./media/placeholder.png">
+                </a>
+                <div class="content">
+                  <a class="author">Elliot Fu</a>
+                  <div class="text">
+                    <p>This has been very useful for my research. Thanks as well!</p>
+                  </div>
+                  <div class="actions">
+                    <a class="reply">Reply</a>
                   </div>
                 </div>
-            </div>
-            <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+                <div class="comments">
+                  <div class="comment">
+                    <a class="avatar">
+                      <img src="./media/placeholder.png">
+                    </a>
+                    <div class="content">
+                      <a class="author">Jenny Hess</a>
+                      <div class="text">
+                        Elliot you are always so right :)
+                      </div>
+                      <div class="actions">
+                        <a class="reply">Reply</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-            </div>
-            <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
+              </div>
+              <div class="comment">
+                <a class="avatar">
+                  <img src="./media/placeholder.png">
+                </a>
+                <div class="content">
+                  <a class="author">Joe Henderson</a>
+                  <div class="text">
+                    Dude, this is awesome. Thanks so much
+                  </div>
+                  <div class="actions">
+                    <a class="reply">Reply</a>
                   </div>
                 </div>
-            </div>
-            <div class="four wide column">
-                <div class="ui card" style="width: 150px; height: 210px; margin:auto;">
-                  <div class="image">
-                    <img src="./media/placeholder.png">
-                  </div>
+              </div>
+              <form class="ui reply form">
+                <div class="field">
+                  <textarea style="margin-top: 0px; margin-bottom: 0px; height: 75px;"></textarea>
                 </div>
+                <div class="ui blue labeled submit icon button" >
+                  <i class="icon edit"></i> Add Reply
+                </div>
+              </form>
             </div>
         </div>
     </div>

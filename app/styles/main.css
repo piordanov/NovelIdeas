@@ -32,7 +32,7 @@ html, body {
 }
 
 .ni {
-	min-height: calc(100vh - 34px);
+	min-height: calc(100vh);
 	background-color: #ffcc33;
 }
 
@@ -46,7 +46,10 @@ html, body {
 }
 
 h2 {
-	margin: auto !important;
+	margin: auto;
+	color: white;
+	font-family: "Montserrat";
+	font-weight: 700;
 }
 
 h1 {
@@ -66,7 +69,18 @@ h1 {
 }
 
 .sign {
-	min-height: calc(100vh - 48px);
+	min-height: calc(100vh);
 	background-image: url(/media/background.jpg);
 	background-size: cover;
+}
+
+#bookFinerDetails p {
+		color: white;
+		font-family: "Montserrat"
+		font-weight: 400;
+}
+
+#description {
+	font-color: $black;
+	font-family: "Esteban"
 }
